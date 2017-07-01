@@ -1,0 +1,33 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.row.border {
+    margin: 10px 0px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+    margin: 15px 0px;
+}
+.row .text-center h3 {
+    margin: 0px;
+
+}
+.container-fluid.text-center {
+    margin-top:15px;
+}
+.old-price {
+    margin-right: 15px;
+    text-decoration: line-through;
+}
+.row.header, .row.header a {
+    background-color: rgb(119, 119, 119);
+    color: #d0d0d0;
+}
