@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call('ProductsTableSeeder');
         $this->call('DiscountTierTableSeeder');
         $this->call('VoucherTableSeeder');
-        $this->call('ProductsTableSeeder');
+        $this->call('VoucherProductTableSeeder');
         $this->call('ApiSettingsTableSeeder');
     }
 }
@@ -92,7 +92,7 @@ class VoucherProductTableSeeder extends Seeder {
 
     public function run()
     {
-        ApiSetting::create(array(
+        VoucherProduct::create(array(
             'products_id' => '1',
             'vouchers_id' => '1',
         ));
